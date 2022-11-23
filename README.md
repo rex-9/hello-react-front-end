@@ -31,7 +31,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Rails Backend\] ](#-rails-backend-)
+- [📖 \[React Frontend\] ](#-react-frontend-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -42,13 +42,7 @@ After you're finished please remove all the comments and instructions!
     - [Install](#install)
       - [1. Navigate to the location of the folder in your machine:](#1-navigate-to-the-location-of-the-folder-in-your-machine)
       - [2. Install the gems:](#2-install-the-gems)
-      - [3. Set up the database with your credentials:](#3-set-up-the-database-with-your-credentials)
-      - [4. Create the databases:](#4-create-the-databases)
-      - [5. Migrate the databases:](#5-migrate-the-databases)
-      - [6. Seed the dummy data:](#6-seed-the-dummy-data)
-    - [Usage](#usage)
-      - [7. Run the server:](#7-run-the-server)
-    - [Run tests](#run-tests)
+      - [3. Start the server:](#3-start-the-server)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -56,9 +50,9 @@ After you're finished please remove all the comments and instructions!
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 [Rails Backend] <a name="about-project"></a>
+# 📖 [React Frontend] <a name="about-project"></a>
 
-**[Hello Rails Backend]** is a Rails Backend application whose front-end is implemented using React [here](https://github.com/rex-9/Hello-React-Frontend).
+**[Hello React Frontend]** is a React Frontend application whose front-end is implemented using React [here](https://github.com/rex-9/hello-rails-back-end).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -115,7 +109,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/rex-9/Hello-React-on-Rails.git
+  git clone https://github.com/rex-9/hello-react-front-end.git
 ```
 
 ### Install
@@ -123,58 +117,20 @@ Clone this repository to your desired folder:
 #### 1. Navigate to the location of the folder in your machine:
 
 ```
-you@your-Pc-name:~$ cd <transactions-on-rails>
+you@your-Pc-name:~$ cd <hello-react-front-end>
 ```
 
 #### 2. Install the gems:
 
 ```
-bundle install
+npm install
 ```
 
-#### 3. Set up the database with your credentials:
+#### 3. Start the server:
 
 - setup the database environment in
 ```
-config/database.yml
-```
-
-#### 4. Create the databases:
-
-```
-rails db:create
-```
-
-#### 5. Migrate the databases:
-
-```
-rails db:migrate
-```
-
-#### 6. Seed the dummy data:
-
-```
-rails db:seed
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-#### 7. Run the server:
-
-```
-rails server
-```
-### Run tests
-
-To run tests, run the following command:
-
-
-Example command:
-
-```sh
-  bin/rails rspec spec
+npm start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
