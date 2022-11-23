@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Rails Backend] <a name="about-project"></a>
 
-**[Hello Rails Backend]** is a Rails Backend application whose front-end is implemented using React [here](https://github.com/rex-9/Hello-React-Frontend).
+**[Hello Rails Backend]** is a Rails Backend application whose front-end is implemented using React [here](https://github.com/rex-9/hello-react-front-end/settings).
 
 ## 🛠 Built With <a name="built-with"></a>
 
