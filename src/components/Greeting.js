@@ -12,7 +12,10 @@ const Greeting = () => {
   return (
     <section>
       <div>Hello</div>
-      <h3>Grreting: {greeting}</h3>
+      <h3>
+        Grreting:
+        {greeting}
+      </h3>
       <button type="button" className="helloBtn" onClick={handleClick}>Get Greeting Randomnly</button>
     </section>
   );
